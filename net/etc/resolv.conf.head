@@ -1,0 +1,8 @@
+# nameserver 172.20.11.11
+# nameserver 172.20.11.12
+nameserver 178.22.122.100
+nameserver 185.51.200.2
+nameserver 1.1.1.1
+# nameserver 94.232.174.194
+nameserver 8.8.8.8
+nameserver 8.8.4.4
