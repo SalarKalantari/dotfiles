@@ -1,0 +1,12 @@
+
+[Default Applications]
+x-scheme-handler/mailto=chromium-browser-chromium.desktop
+x-scheme-handler/http=chromium-browser-chromium.desktop
+x-scheme-handler/https=chromium-browser-chromium.desktop
+x-scheme-handler/about=chromium-browser-chromium.desktop
+x-scheme-handler/unknown=chromium-browser-chromium.desktop
+image/png=sxiv.desktop
+audio/mpeg=mpv.desktop
+image/jpeg=sxiv.desktop
+application/epub+zip=org.pwmt.zathura-pdf-mupdf.desktop
+application/pdf=org.pwmt.zathura-pdf-mupdf.desktop
