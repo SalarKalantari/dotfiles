@@ -3,3 +3,5 @@
 	email = salar.kalantari@gmail.com
 [color]
 	ui = true
+[credential]
+	helper = cache
