@@ -14,12 +14,16 @@ if [[ $- != *i* ]] ; then
 	return
 fi
 
-
 # Put your fun stuff here.
-export NNN_USE_EDITOR=1
 
 # configure PS1 command prompt
-PS1='\e[0;36m\]\w \e[0;32m\]\$ \e[0m\]'
+PS1="\[\e[0;35m\]\w \[\e[0;32m\]\$ \[\e[0m\]"
+
+# use the $EDITOR when opening text files on nnn
+export NNN_USE_EDITOR=1
+
+# no double entries in the shell history
+export HISTCONTROL="$HISTCONTROL erasedups:ignoreboth"
 
 # wrap these commands for interactive use to avoid accidental overwrites.
 rm() { command rm -i "$@";  }
