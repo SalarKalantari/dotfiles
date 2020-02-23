@@ -187,11 +187,11 @@ bindsym XF86MonBrightnessUp exec xbacklight -inc 1
 bindsym XF86MonBrightnessDown exec xbacklight -dec 1
 
 # Touchpad controls
-bindsym XF86TouchpadToggle exec /usr/local/bin/toggletouchpad.sh
+bindsym XF86TouchpadToggle exec /home/salar/.local/bin/toggletouchpad.sh
 
 # Keyboard backlight
-bindsym XF86KbdBrightnessUp exec /usr/local/bin/kb-light.py + 1
-bindsym XF86KbdBrightnessDown exec /usr/local/bin/kb-light.py - 1
+bindsym XF86KbdBrightnessUp exec /home/salar/.local/bin/kb-light.py + 1
+bindsym XF86KbdBrightnessDown exec /home/salar/.local/bin/kb-light.py - 1
 
 # Redshift
 bindsym $mod+z exec redshift -m randr -PO 3000
