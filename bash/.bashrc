@@ -16,9 +16,6 @@ fi
 
 # Put your fun stuff here.
 
-# use the $EDITOR when opening text files on nnn
-export NNN_USE_EDITOR=1
-
 # no double entries in the shell history
 export HISTCONTROL="$HISTCONTROL erasedups:ignoreboth"
 
@@ -29,3 +26,4 @@ mv() { command mv -i "$@";  }
 
 # alias
 alias ll='ls -al'
+alias nnn='nnn -e'
