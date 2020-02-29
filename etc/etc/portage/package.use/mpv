@@ -1,1 +1,1 @@
->=media-video/mpv-0.27.2 dvd drm gbm openal vaapi vdpau vulkan
+>=media-video/mpv-0.27.2 openal vaapi vulkan
