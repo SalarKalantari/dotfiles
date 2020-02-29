@@ -8,11 +8,15 @@ call plug#begin('~/.vim/plugged')
 " Lean & mean status/tabline for vim that's light as air.
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+
 " Simple tmux statusline generator with support for powerline symbols and vim/airline/lightline statusline integration
 Plug 'edkolev/tmuxline.vim'
 
 " Comment stuff out.
 Plug 'tpope/vim-commentary'
+
+" Surround.vim is all about surroundings: parentheses, brackets, quotes, XML tags, and more. The plugin provides mappings to easily delete, change and add such surroundings in pairs.
+Plug 'tpope/vim-surround'
 
 " Initialize plugin system
 call plug#end()
