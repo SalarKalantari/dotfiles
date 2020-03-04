@@ -26,6 +26,7 @@ let g:airline#extensions#tmuxline#enabled = 0
 
 
 set exrc
+set autoindent
 set background=dark
 set splitbelow
 set splitright
@@ -34,12 +35,6 @@ set relativenumber
 
 
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
-
-" Split navigations
-nnoremap <C-J> <C-W><C-J>
-nnoremap <C-K> <C-W><C-K>
-nnoremap <C-L> <C-W><C-L>
-nnoremap <C-H> <C-W><C-H>
 
 
 " Automatically delete all trailing whitespace on save
