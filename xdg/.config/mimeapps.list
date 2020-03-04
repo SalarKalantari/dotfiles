@@ -1,12 +1,12 @@
 
 [Default Applications]
-x-scheme-handler/mailto=chromium-browser-chromium.desktop
-x-scheme-handler/http=chromium-browser-chromium.desktop
-x-scheme-handler/https=chromium-browser-chromium.desktop
-x-scheme-handler/about=chromium-browser-chromium.desktop
-x-scheme-handler/unknown=chromium-browser-chromium.desktop
-image/png=sxiv.desktop
-audio/mpeg=mpv.desktop
-image/jpeg=sxiv.desktop
-application/epub+zip=org.pwmt.zathura-pdf-mupdf.desktop
-application/pdf=org.pwmt.zathura-pdf-mupdf.desktop
+text/html=google-chrome.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop
+application/pdf=org.pwmt.zathura.desktop
+video/x-matroska=mplayer.desktop
+video/mp4=mplayer.desktop
+video/x-msvideo=mplayer.desktop
+video/x-flv=mplayer.desktop
