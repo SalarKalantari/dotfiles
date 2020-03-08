@@ -1,4 +1,7 @@
 # Write your default config options here!
+ao=pulse
+cache=8192
+cache-seek-min=1
 [default]
 fontconfig=1
 subfont-osd-scale=1
