@@ -6,8 +6,9 @@ ao=pulse
 [default]
 fontconfig=1
 subfont-osd-scale=1
-subfont-text-scale=3.6
+subfont-text-scale=3.5
 sub-fuzziness=2
 ass=1
-# ass-font-scale=1
+ass-font-scale=1
 ass-force-style='MarginV=10,BorderStyle=0,Outline=0.5,Shadow=0'
+# ass-force-style='PlayResY=144,MarginV=6,BorderStyle=0,Outline=0.3,Shadow=0'
