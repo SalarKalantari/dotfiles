@@ -16,6 +16,7 @@ fi
 
 # Put your fun stuff here.
 
+PATH=$PATH:~/.local/bin
 # no double entries in the shell history
 export HISTCONTROL="$HISTCONTROL erasedups:ignoreboth"
 
@@ -27,3 +28,8 @@ mv() { command mv -i "$@";  }
 # alias
 alias ll='ls -al'
 alias nnn='nnn -e'
+alias aa='g++ -Wall -Wextra -Wpedantic -g'
+
+
+# set the variable SCIPY_PIL_IMAGE_VIEWER to prefered image viewer
+export SCIPY_PIL_IMAGE_VIEWER=sxiv
