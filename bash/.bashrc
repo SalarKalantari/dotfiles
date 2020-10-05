@@ -21,15 +21,18 @@ PATH=$PATH:~/.local/bin
 export HISTCONTROL="$HISTCONTROL erasedups:ignoreboth"
 
 # wrap these commands for interactive use to avoid accidental overwrites.
-rm() { command rm -i "$@";  }
+# rm() { command rm -i "$@";  }
 cp() { command cp -i "$@";  }
 mv() { command mv -i "$@";  }
 
 # alias
+alias rm='rm -i'
 alias ll='ls -al'
 alias nnn='nnn -e'
 alias aa='g++ -Wall -Wextra -Wpedantic -g'
+alias zz='gcc -Wall -Wextra -Wpedantic -g'
 
 
 # set the variable SCIPY_PIL_IMAGE_VIEWER to prefered image viewer
 export SCIPY_PIL_IMAGE_VIEWER=sxiv
+source /home/salar/vcpkg/scripts/vcpkg_completion.bash

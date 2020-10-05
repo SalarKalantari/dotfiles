@@ -1,3 +1,10 @@
+" VimWiki
+let g:vimwiki_list = [{'path': '~/vimwiki/',
+                      \ 'syntax': 'markdown', 'ext': '.md'}]
+
+"VimWiki
+let g:vimwiki_conceallevel = 0
+
 " Airline
 let g:airline_theme='base16_grayscale'
 let g:airline#extensions#tmuxline#enabled = 0
@@ -45,6 +52,7 @@ nnoremap <space> za
 " Make your code pretty
 syntax on
 filetype plugin on
+set conceallevel=0
 set nocp
 
 
@@ -134,6 +142,12 @@ Plug 'jiangmiao/auto-pairs'
 
 " vim-bracketed-paste enables transparent pasting into vim. (i.e. no more :set paste!)
 Plug 'ConradIrwin/vim-bracketed-paste'
+
+"VimWiki is a personal wiki for Vim -- a number of linked text files that have their own syntax highlighting.
+Plug 'vimwiki/vimwiki'
+
+"Preview markdown on your modern browser with synchronised scrolling and flexible configuration
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 
 " Initialize plugin system
 call plug#end()

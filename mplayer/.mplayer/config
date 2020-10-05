@@ -4,7 +4,7 @@ fs=1
 # loop=0
 # cache=8192
 cache=102400
-cache-seek-min=0
+cache-seek-min=99
 [default]
 fontconfig=1
 subfont-osd-scale=1
